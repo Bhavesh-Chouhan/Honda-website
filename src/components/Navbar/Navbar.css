@@ -1,0 +1,31 @@
+.navbar {
+  padding: 0;
+}
+.navbar-brand > img {
+  width: 60px;
+  margin-left: 30px;
+}
+.navbar-toggler {
+  margin-right: 30px;
+}
+#navbarNav {
+  text-align: center;
+}
+.nav-link {
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .navbar-brand > img {
+    width: 60px;
+    margin-left: 10px;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .nav-link {
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 1rem;
+  }
+}

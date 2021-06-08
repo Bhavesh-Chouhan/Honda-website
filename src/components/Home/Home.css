@@ -1,0 +1,34 @@
+.home {
+  height: 100vh;
+  background-image: url("https://cdn-0.totalmotorcycle.com/motorcycles/2015/2015-Honda-NC750XA1.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: "Baloo Tammudu 2", cursive;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.HONDA {
+  padding-left: 30px;
+  font-family: "Bree Serif", serif;
+  font-weight: bolder;
+}
+@media (min-width: 768px) {
+  h2 {
+    padding-top: 100px;
+    padding-left: 80px;
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .HONDA {
+    padding-left: 80px;
+    font-family: "Bree Serif", serif;
+    font-weight: bolder;
+  }
+}
